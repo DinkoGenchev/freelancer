@@ -1,0 +1,317 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	-o-box-sizing:border-box;
+}
+body {
+	width: 1370px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	height: 100%;
+}
+.container {
+	width: 930px;
+	margin:0 auto;
+	padding: auto 0;
+}
+.container:after{
+	display: block;
+	clear: both;
+	content: "";
+}
+
+.links {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color:#fa5c65;
+	padding-right: 20px;
+	background:url("Arrow.png")no-repeat right 4px;
+}
+
+.logo span {
+	color:#000;
+}
+
+span {
+	color: #f0454c;
+}
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	color:#465065;
+	font-size:32px;
+}
+
+
+
+
+
+/* ~~~~~~~~~~~~~~ HEADER ~~~~~~~~~~~~~~~~ */
+
+
+.intro {
+	position: relative;
+	min-height:1057px;
+}
+.intro-img {
+	background: url("freelancerfreelancer_01.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	position:absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-size: cover;
+	-webkit-background-size: cover;
+	min-height:1057px;
+
+}
+.intro .container{
+	position: relative;
+}
+.logo {
+	background-color: #fa5c65;
+	width: 140px;
+	height: 74px;
+	border-bottom-right-radius:10px;
+	border-bottom-left-radius:10px;
+	float:left;
+}
+.logo h2 {
+	font-family: 'Domine', serif;
+	font-weight: 700;
+	font-size: 20px;
+	color:#fff;
+	text-align: center;
+	padding-top: 35px;
+}
+.main-nav {
+	float:right;
+}
+.main-nav  ul {
+	list-style-type: none;
+}
+.main-nav ul li {
+	float:left;
+	margin-left: 30px;
+	margin-top: 25px;
+}
+.main-nav ul li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color:#263742;
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+
+.slider h1 {
+	font-size:48px;
+	max-width: 500px;
+}
+
+.slider .container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	min-height: 900px;
+	max-height: 100vh;
+}
+
+.slider p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+.intro-btn {
+	padding: 25px 40px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color:#fff;
+	background-color: #fa5c65;
+	border-radius: 10px;
+	font-size: 15px;
+	font-weight: 700;
+	width: 180px;
+}
+
+
+
+
+
+
+
+
+/* ~~~~~~~~~~~~~~~~ SECTION  ~~~~~~~~~~~~~~~ */ 
+
+
+
+/*  -------------- SNIPPETS ----------*/
+.snippets ul{
+	list-style-type: none;
+	display: flex;
+}
+.snippets ul li {
+	width: 32%;
+	padding:2%;
+	margin:50px auto;
+}
+.snippets h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	color:#465065;
+	text-transform: uppercase;
+	line-height: 1;
+	margin-bottom: 30px;
+}
+.snippets p {
+	margin-bottom: 30px;
+	color:#b5b9c1;
+}
+
+.snippets ul li:first-child {
+	padding-left: 0;
+	margin-left: 0;
+}
+
+
+.snippets ul li:last-child {
+	padding-right: 0;
+	margin-right: 0;
+}
+
+
+
+
+
+
+/* ------------ PORTFOLIO ------------*/
+
+.portfolio {
+	display: flex;
+	margin:30px 0;
+}
+.box1 {
+	width: 50%;
+	background:url("MacBook.png");
+	background-repeat: no-repeat;
+	width: 424px;
+	height: 406px;
+}
+.box2 {
+	width: 50%;
+	padding: 2%;
+}
+.box2 h1 {
+	margin:20px auto 0;	
+}
+
+.box2 .port {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	color:#314a5b;
+	margin-bottom: 20px;
+}
+.box2 p {
+	color: #b5b9c1;
+	margin-bottom: 30px;
+}
+
+
+
+/* ------------------ TEAM *----------------*/
+
+.team p {
+	color: #b5b9c1;
+	margin-top: 10px;
+	margin-bottom: 30px;
+
+}
+.img {
+	width: 120px;
+	height: 120px;
+	background-repeat: no-repeat;
+}
+.joey .img {
+	background: url("Photo.png");
+}
+.matt .img {
+	background:url("Photo1.png");
+}
+.mike .img {
+	background: url("Photo2.png");
+}
+.team ul {
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+	margin-bottom: 40px;
+}
+.team ul li:first-child {
+	margin-left: 0;
+}
+.team ul li:last-child {
+	margin-right: 0;
+}
+
+
+.team ul li {
+	width: 32%;
+	margin:auto;
+}
+.team .img {
+	float:left;
+}
+.team-cont {
+	float:right;
+	width: 160px;
+	margin:auto;
+}
+.team h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	color:#465065;
+	text-transform: uppercase;
+}
+.team .links {
+	float: right;
+}
+.team a {
+	margin-bottom: 40px;
+	margin-top: 20px;
+}
+.red {
+	color: #f0454c;
+}
+
+
+/* ~~~~~~~~~~ FOOTER ~~~~~~~~~~~*/
+footer .container{
+	border-top: 1px solid #b5b9c1;
+}
+.social-icons ul {
+	list-style-type: none;
+	float:left;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+.social-icons ul li {
+	float: left;
+	padding-right: 20px;
+}
+footer .container p {
+	float:right;
+	color: #b5b9c1;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
